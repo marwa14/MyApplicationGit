@@ -1,18 +1,12 @@
 package com.example.hp.myapplication;
 
 import android.content.res.AssetManager;
-import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-
+/*commit number 2 */
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -25,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         byte[] buffer = new byte[1000];
         AssetManager assetManager = getResources().getAssets();
         InputStream inputStream = null;
-
+/*fichier exemple*/
         try {
             inputStream = assetManager.open("test.txt");
             while ((nRead = inputStream.read(buffer)) != -1) {
