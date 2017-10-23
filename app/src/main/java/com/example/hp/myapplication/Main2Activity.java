@@ -10,7 +10,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
                 /*test test 123 test*/
-                System.out.println("marwa");
+                System.out.println("marwa test");
 
     }
 }
