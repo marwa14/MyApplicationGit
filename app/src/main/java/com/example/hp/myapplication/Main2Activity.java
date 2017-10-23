@@ -9,7 +9,9 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-                /*test test 123 test*/
+                /*test test 1234*/
+        System.out.print("haythem");
+
 
     }
 }
