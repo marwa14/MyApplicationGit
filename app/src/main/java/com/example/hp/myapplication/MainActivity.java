@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println(new String(buffer));
                 json += nRead;
             }
-            System.out.println("json result est"+json);
+            System.out.println("json result"+json);
            /* BufferedReader br=new BufferedReader(new
                     InputStreamReader(getAssets().open("test.txt")));
             while ((line =br.readLine())!= null)
