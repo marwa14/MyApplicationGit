@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.io.IOException;
 import java.io.InputStream;
+
+import static android.R.attr.x;
+
 /*commit number 2 */
 public class MainActivity extends AppCompatActivity {
 
@@ -27,9 +30,10 @@ public class MainActivity extends AppCompatActivity {
                 // Of course you wouldn't want to do this with
                 // a 'real' binary file.
                 System.out.println(new String(buffer));
-                json += nRead;
+                json += nRead+x;
             }
-            System.out.println("json"+json);
+
+            System.out.println("json"+json+x);
            /* BufferedReader br=new BufferedReader(new
                     InputStreamReader(getAssets().open("test.txt")));
             while ((line =br.readLine())!= null)
